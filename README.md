@@ -2,6 +2,8 @@
 
 ---
 
+## Full Git Command Sequence (First Push)
+
 ### Go to project folder -> Right click -> git bash here ->
 ### 1. Initialize a Git repository (if not already initialized)
 git init
