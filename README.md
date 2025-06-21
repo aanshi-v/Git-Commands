@@ -49,7 +49,7 @@ git status
 git checkout -b main
 
 ### 4. Add all project files to staging area
-git add .
+git add *
 
 ### 5. Commit your changes with a message
 git commit -m "Initial commit"
@@ -66,6 +66,20 @@ git push -u origin main
 
 ### (Optional) 9. If push is rejected due to conflicts, force push (⚠️ Use with caution)
 git push -u origin main --force
+
+---
+
+# Full Command Sequence (For Future Pushes)
+1.  git branch
+2.  git checkout main
+3.  git status
+4.  git add *
+#### or stage a specific file
+5.  git add README.md
+6.  git commit -m "Your message"
+7.  git pull origin main --rebase
+8.  git push origin main
+
 
 
 
