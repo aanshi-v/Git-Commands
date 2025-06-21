@@ -45,7 +45,7 @@ git init
 ### 2. Check the current status of tracked/untracked files
 git status
 
-# 3. Create and switch to a new branch named 'main'
+#### 3. Create and switch to a new branch named 'main'
 git checkout -b main
 
 # 4. Add all project files to staging area
