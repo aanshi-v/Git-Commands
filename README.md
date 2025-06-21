@@ -4,7 +4,7 @@
 
 ## Full Git Command Sequence (First Push)
 
-### Go to project folder -> Right click -> git bash here ->
+#### Go to project folder -> Right click -> git bash here ->
 ### 1. Initialize a Git repository (if not already initialized)
 git init
 
@@ -35,7 +35,7 @@ git push -u origin main --force
 
 ---
 
-# Full Command Sequence (For Future Pushes)
+## Full Command Sequence (For Future Pushes)
 1.  git branch
 2.  git checkout main
 3.  git status
