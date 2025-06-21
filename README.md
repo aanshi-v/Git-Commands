@@ -4,7 +4,7 @@
 
 ## To connect Project to github:-
 1.	Go to project folder -> Right click -> git bash here ->
-2.	Step 1: Initialize Git (if not already done):   git init
+2.	Step 1: Initialize Git (if not already done):   **git init**
 3.	Check status:  git status
 4.	Step 2: Create a main branch (This creates and switches to a branch named main):   git checkout -b  main
 5.	Step 3: Add your project files:   git add *
