@@ -38,33 +38,33 @@ Or :    [   ***git push -u origin main –force***   ]
 ---
 ---
 
-
-#### 1. Initialize a Git repository (if not already initialized)
+### Go to project folder -> Right click -> git bash here ->
+### 1. Initialize a Git repository (if not already initialized)
 git init
 
-#### 2. Check the current status of tracked/untracked files
+### 2. Check the current status of tracked/untracked files
 git status
 
-#### 3. Create and switch to a new branch named 'main'
+### 3. Create and switch to a new branch named 'main'
 git checkout -b main
 
-#### 4. Add all project files to staging area
+### 4. Add all project files to staging area
 git add .
 
-#### 5. Commit your changes with a message
+### 5. Commit your changes with a message
 git commit -m "Initial commit"
 
-#### 6. Set global Git configuration (only once per machine)
+### 6. Set global Git configuration (only once per machine)
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 
-#### 7. Add remote GitHub repository (only once)
+### 7. Add remote GitHub repository (only once)
 git remote add origin https://github.com/your-username/your-repo.git
 
-#### 8. Push code to GitHub and set upstream branch
+### 8. Push code to GitHub and set upstream branch
 git push -u origin main
 
-#### (Optional) 9. If push is rejected due to conflicts, force push (⚠️ Use with caution)
+### (Optional) 9. If push is rejected due to conflicts, force push (⚠️ Use with caution)
 git push -u origin main --force
 
 
