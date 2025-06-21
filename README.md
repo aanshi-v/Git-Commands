@@ -2,6 +2,7 @@
 
 ---
 
+
 ## Full Git Command Sequence (First Push)
 
 #### Go to project folder -> Right click -> git bash here ->
@@ -33,7 +34,9 @@ git push -u origin main
 ### (Optional) 9. If push is rejected due to conflicts, force push (⚠️ Use with caution)
 git push -u origin main --force
 
+
 ---
+
 
 ## Full Command Sequence (For Future Pushes)
 1.  git branch
