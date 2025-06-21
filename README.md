@@ -39,10 +39,10 @@ Or :    [   ***git push -u origin main –force***   ]
 ---
 
 
-# 1. Initialize a Git repository (if not already initialized)
+## 1. Initialize a Git repository (if not already initialized)
 git init
 
-# 2. Check the current status of tracked/untracked files
+### 2. Check the current status of tracked/untracked files
 git status
 
 # 3. Create and switch to a new branch named 'main'
