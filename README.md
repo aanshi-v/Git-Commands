@@ -9,7 +9,7 @@
 4.	Step 2: Create a main branch (This creates and switches to a branch named main):   [   ***git checkout -b  main***   ]
 5.	Step 3: Add your project files:   [   git add *   ]
 6.	Step 4: Commit your changes:   [   ***git commit -m "Initial commit"***   ]
-7.	For the 1st time:  
+7.	Set global Git configuration (only once per machine):  
 [   git config --global user.email "you@example.com"   ]
 [   git config --global user.name "Your Name"   ]
 
