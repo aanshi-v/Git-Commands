@@ -49,6 +49,18 @@ git push -u origin main --force
 7.  git pull origin main --rebase
 8.  git push origin main
 
+---
+
+## Command Sequence (Push to a Custom Branch):
+1. git init
+2. git status
+3. git checkout -b dev                 # Create and switch to new branch (e.g., 'dev')
+4. git add *
+5. git commit -m "Initial commit"
+6. git remote add origin https://github.com/your-username/your-repo.git
+7. git push -u origin dev              # Push to 'dev' branch
+
+
 
 
 
