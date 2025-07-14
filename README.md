@@ -60,6 +60,12 @@ git push -u origin main --force
 6. git remote add origin https://github.com/your-username/your-repo.git
 7. git push -u origin dev              # Push to 'dev' branch
 
+---
+
+## Command Sequence (Steps to update your Git remote to the new GitHub repository:):
+1. git remote -v
+2. git remote set-url origin https://github.com/aanshi-v/new-repository-name.git
+3. git push -u origin main
 
 
 
